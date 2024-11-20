@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(164, 211, 211);
+}
+
+.container {
+  background-color: rgb(0, 0, 44);
+  width: 80vw;
+  padding: 1vw;
+  margin: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.container .contents {
+  background-color: navy;
+  margin: 1vw;
+  padding: 3vw;
+  border-radius: 10px;
+  width: 30vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2vw;
+  color: white;
+}
+.container .contents .profileImage {
+  width: 10vw;
+  height: 10vw;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: width 1s, height 1.5s;
+}
+.container .contents .profileImage:hover {
+  height: 20vw;
+  width: 20vw;
+}/*# sourceMappingURL=profileCard.css.map */

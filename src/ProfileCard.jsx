@@ -1,4 +1,4 @@
-import './ProfileCard.css'
+import './css/profileCard.css'
 function profile() {
     return(
         <div className="container">
